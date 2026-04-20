@@ -2,10 +2,11 @@ package Model;
 
 public class SuperAdmin
 {
-    int id;
-    int contactNum;
-    
-    String name;
-    String password;
-    String position;
+    public String contactNum;
+    public String id;
+    public String firstName;
+    public String lastName;
+    public String loggedpassword;
+    public String password;
+    public String position;
 }
